@@ -18,4 +18,3 @@ Evolution of the number of new cases per state - NYT:
 ## Author
 
 * **Joffrey Armellini** - *Initial work* - [MtlBerri](https://github.com/mtlberri)
-
