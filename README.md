@@ -13,8 +13,3 @@ Study of the number of cases per state:
 
 Evolution of the number of new cases per state - NYT:
 [https://www.nytimes.com/interactive/2020/us/coronavirus-us-cases.html](https://www.nytimes.com/interactive/2020/us/coronavirus-us-cases.html)
-
-
-## Author
-
-* **Joffrey Armellini** - *Initial work* - [MtlBerri](https://github.com/mtlberri)
