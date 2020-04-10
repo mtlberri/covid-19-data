@@ -40718,9 +40718,6 @@ date,county,state,fips,cases,deaths
 2020-04-07,Sweetwater,Wyoming,56037,6,0
 2020-04-07,Teton,Wyoming,56039,44,0
 2020-04-07,Uinta,Wyoming,56041,3,0
-<<<<<<< HEAD
-2020-04-07,Washakie,Wyoming,56043,4,0
-=======
 2020-04-07,Washakie,Wyoming,56043,4,0
 2020-04-08,Autauga,Alabama,01001,12,1
 2020-04-08,Baldwin,Alabama,01003,49,1
@@ -43287,4 +43284,3 @@ date,county,state,fips,cases,deaths
 2020-04-08,Teton,Wyoming,56039,39,0
 2020-04-08,Uinta,Wyoming,56041,2,0
 2020-04-08,Washakie,Wyoming,56043,4,0
->>>>>>> 9c9265f96966d4f422f633876f81f24215041ebe

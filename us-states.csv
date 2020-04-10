@@ -1992,9 +1992,6 @@ date,state,fips,cases,deaths
 2020-04-07,Washington,53,8682,409
 2020-04-07,West Virginia,54,412,4
 2020-04-07,Wisconsin,55,2578,94
-<<<<<<< HEAD
-2020-04-07,Wyoming,56,221,0
-=======
 2020-04-07,Wyoming,56,221,0
 2020-04-08,Alabama,01,2499,67
 2020-04-08,Alaska,02,224,5
@@ -2051,4 +2048,3 @@ date,state,fips,cases,deaths
 2020-04-08,West Virginia,54,483,4
 2020-04-08,Wisconsin,55,2756,107
 2020-04-08,Wyoming,56,230,0
->>>>>>> 9c9265f96966d4f422f633876f81f24215041ebe
