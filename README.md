@@ -1,27 +1,26 @@
-# Coronavirus (Covid-19) Data in the United States
-
-Based on NYT data (fork of NYT repository)
-
-Study of the number of new cases per state:
-
-![new cases](https://mtlberriawsbucket.s3.us-east-2.amazonaws.com/Covid/number_new_cases_per_state.png)
-
-Study of the number of cases per state:
-
-![cases](https://mtlberriawsbucket.s3.us-east-2.amazonaws.com/Covid/number_cases_per_state.png)
-
-
-<<<<<<< HEAD
 Evolution of the number of new cases per state - NYT:
 [https://www.nytimes.com/interactive/2020/us/coronavirus-us-cases.html](https://www.nytimes.com/interactive/2020/us/coronavirus-us-cases.html)
 =======
 Data on cumulative coronavirus cases and deaths can be found in two files for states and counties.
+=======
+Data on cumulative coronavirus cases and deaths can be found in three files, one for each of these geographic levels: U.S., states and counties.
+ 
+Each row of data reports cumulative counts based on our best reporting up to the moment we publish an update. We do our best to revise earlier entries in the data when we receive new information. If a county is not listed for a date, then there were zero reported confirmed cases and deaths.
+>>>>>>> 899223ac40e144a1c887895743d837a7bac4b4da
 
-Each row of data reports cumulative counts based on our best reporting up to the moment we publish an update. We do our best to revise earlier entries in the data when we receive new information. If a county is not listed for a date, then there were were zero reported confirmed cases and deaths.
-
-Both files contain [FIPS codes](https://www.census.gov/quickfacts/fact/note/US/fips), a standard geographic identifier, to make it easier for an analyst to combine this data with other data sets like a map file or population data.
+State and county files contain [FIPS codes](https://www.census.gov/quickfacts/fact/note/US/fips), a standard geographic identifier, to make it easier for an analyst to combine this data with other data sets like a map file or population data.
 
 Download all the data or clone this repository by clicking the green "Clone or download" button above.
+
+### U.S. National-Level Data
+
+The daily number of cases and deaths nationwide, including states, U.S. territories and the District of Columbia, can be found in the [us.csv](us.csv) file.  ([Raw CSV file here.](https://raw.githubusercontent.com/nytimes/covid-19-data/master/us.csv))
+
+```
+date,cases,deaths
+2020-01-21,1,0
+...
+```
 
 ### State-Level Data
 
@@ -85,6 +84,10 @@ All cases for the five boroughs of New York City (New York, Kings, Queens, Bronx
 
 For all New York state counties, starting on April 8th we are reporting deaths by place of fatality instead of residence of individual.
 
+* Georgia
+
+Starting April 12th, our case count excludes cases labeled by the state as "Non-Georgia Resident" leading to a one day drop in cases. These cases were previously included as cases with "Unknown" county.
+
 * Kansas City, Mo.
 
 Four counties (Cass, Clay, Jackson and Platte) overlap the municipality of Kansas City, Mo. The cases and deaths that we show for these four counties are only for the portions exclusive of Kansas City. Cases and deaths for Kansas City are reported as their own line.
@@ -114,7 +117,7 @@ If you use this data, you must attribute it to “The New York Times” in any p
 
 If you use it in an online presentation, we would appreciate it if you would link to our U.S. tracking page at [https://www.nytimes.com/interactive/2020/us/coronavirus-us-cases.html](https://www.nytimes.com/interactive/2020/us/coronavirus-us-cases.html).
 
-If you use this data, please let us know at covid-data@nytimes.com and indicate if you would be willing to talk to a reporter about your research.
+If you use this data, please let us know at covid-data@nytimes.com.
 
 See our [LICENSE](LICENSE) for the full terms of use for this data.
 
