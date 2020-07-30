@@ -11,6 +11,8 @@ Each row of data reports cumulative counts based on our best reporting up to the
 =======
 # Coronavirus (Covid-19) Data in the United States
 
+**NEW:** We are publishing the data behind our [survey of mask usage](https://www.nytimes.com/interactive/2020/07/17/upshot/coronavirus-face-mask-map.html) in the United States in order to provide researchers a way to understand the role of mask wearing in the course of the pandemic. See the data and documentation in the [mask-use/](mask-use/) directory.
+
 **NEW:** We are publishing the data behind our [excess deaths tracker](https://www.nytimes.com/interactive/2020/04/21/world/coronavirus-missing-deaths.html) in order to provide researchers and the public with a better record of the true toll of the pandemic. This data is compiled from official national and municipal data for 24 countries. See the data and documentation in the [excess-deaths/](excess-deaths/) directory.
 
 ---
@@ -191,7 +193,7 @@ Totals for each county in Michigan include cases and deaths among federal and st
 
 * New York
 
-All cases for the five boroughs of New York City (New York, Kings, Queens, Bronx and Richmond counties) are assigned to a single area called New York City. There is a large jump in the number of deaths on April 6th due to switching from data from New York City to data from New York state for deaths. We are not currently including the probable deaths reported by New York City.
+All cases for the five boroughs of New York City (New York, Kings, Queens, Bronx and Richmond counties) are assigned to a single area called New York City. There is a large jump in the number of deaths on April 6th due to switching from data from New York City to data from New York state for deaths. The number of deaths in New York City also includes probable deaths reported by the New York City health department.
 
 For all New York state counties, starting on April 8th we are reporting deaths by place of fatality instead of residence of individual. There were no new deaths reported by the state on April 17th or April 18th.
 
@@ -261,9 +263,13 @@ From June 18 to 21, the Mississippi State Department of Health reported technica
 
 On June 16, Texas reported an additional 1,476 backlogged cases from prison inmates in Anderson and Brazoria counties.
 
+On July 27, state officials [changed](https://www.dshs.texas.gov/news/releases/2020/20200727.aspx) their methodology for reporting deaths to count deaths based on death certificates listing Covid-19. This change excludes deaths from people who tested positive but whose death certificate listed another cause of death, and includes people who died of Covid-19 without ever testing positive. In many counties this has led to a sudden change in the total number of deaths. Some counties continue to report deaths independently of the state and this data set uses those county counts if they are higher than the state's count for that county.
+
 * Washington
 
 On June 17, Washington began removing from their totals deaths where Covid-19 was not a factor, for instance homicides, overdoses, suicides and car accidents. Four deaths from King County and three from Yakima county that were due to homicide, suicide or overdose were removed.
+
+On July 24, the state began to report probable deaths for the first time and at the same time removed about 50 deaths of people who tested positive for Covid-19 but died of other causes.
 
 #### Probable Cases and Deaths
 
@@ -345,6 +351,7 @@ Mitch Smith, Karen Yourish, Sarah Almukhtar, Keith Collins, Danielle Ivory and A
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Data has also been compiled by Jordan Allen, Jeff Arnold, Aliza Aufrichtig, Mike Baker, Robin Berjon, Matthew Bloch, Nicholas Bogel-Burroughs, Maddie Burakoff, Christopher Calabrese, Andrew Chavez, Robert Chiarito, Carmen Cincotti, Alastair Coote, Matt Craig, John Eligon, Tiff Fehr, Andrew Fischer, Matt Furber, Rich Harris, Lauryn Higgins, Jake Holland, Will Houp, Jon Huang, Danya Issawi, Jacob LaGesse, Hugh Mandeville, Patricia Mazzei, Allison McCann, Jesse McKinley, Miles McKinley, Sarah Mervosh, Andrea Michelson, Blacki Migliozzi, Steven Moity, Richard A. Oppel Jr., Jugal K. Patel, Nina Pavlich, Azi Paybarah, Sean Plambeck, Carrie Price, Scott Reinhard, Thomas Rivas, Michael Robles, Alison Saldanha, Alex Schwartz, Libby Seline, Shelly Seroussi, Rachel Shorey, Anjali Singhvi, Charlie Smart, Ben Smithgall, Steven Speicher, Michael Strickland, Albert Sun, Thu Trinh, Tracey Tully, Maura Turcotte, Miles Watkins, Jeremy White, Josh Williams and Jin Wu.
 >>>>>>> 9c9265f96966d4f422f633876f81f24215041ebe
 =======
@@ -353,3 +360,6 @@ Data has also been compiled by Jordan Allen, Jeff Arnold, Aliza Aufrichtig, Mike
 =======
 Data has also been compiled by Jordan Allen, Jeff Arnold, Aliza Aufrichtig, Mike Baker, Robin Berjon, Matthew Bloch, Nicholas Bogel-Burroughs, Maddie Burakoff, Christopher Calabrese, Andrew Chavez, Robert Chiarito, Carmen Cincotti, Alastair Coote, Matt Craig, John Eligon, Tiff Fehr, Andrew Fischer, Matt Furber, Rich Harris, Lauryn Higgins, Jake Holland, Will Houp, Jon Huang, Danya Issawi, Jacob LaGesse, Hugh Mandeville, Patricia Mazzei, Allison McCann, Jesse McKinley, Miles McKinley, Sarah Mervosh, Andrea Michelson, Blacki Migliozzi, Steven Moity, Richard A. Oppel Jr., Jugal K. Patel, Nina Pavlich, Azi Paybarah, Sean Plambeck, Carrie Price, Scott Reinhard, Thomas Rivas, James G. Robinson, Michael Robles, Alison Saldanha, Alex Schwartz, Libby Seline, Shelly Seroussi, Rachel Shorey, Anjali Singhvi, Charlie Smart, Ben Smithgall, Steven Speicher, Michael Strickland, Albert Sun, Thu Trinh, Tracey Tully, Maura Turcotte, Bella Virgilio, Miles Watkins, Phil Wells, Jeremy White, Josh Williams, Jin Wu and Yanxing Yang.
 >>>>>>> fe73d6d4ea26e7b1ce7ece67a30bdbd4c014bafb
+=======
+Data has also been compiled by Jordan Allen, Jeff Arnold, Aliza Aufrichtig, Mike Baker, Nikhil Baradwaj, Robin Berjon, Matthew Bloch, Nicholas Bogel-Burroughs, Maddie Burakoff, Christopher Calabrese, Andrew Chavez, Robert Chiarito, Carmen Cincotti, Alastair Coote, Matt Craig, John Eligon, Tiff Fehr, Andrew Fischer, Matt Furber, Ariana Giorgi, Rich Harris, Lauryn Higgins, Jake Holland, Will Houp, Jon Huang, Danya Issawi, Jacob LaGesse, Hugh Mandeville, Patricia Mazzei, Allison McCann, Jesse McKinley, Miles McKinley, Sarah Mervosh, Andrea Michelson, Blacki Migliozzi, Steven Moity, Richard A. Oppel Jr., Jugal K. Patel, Nina Pavlich, Azi Paybarah, Sean Plambeck, Carrie Price, Scott Reinhard, Thomas Rivas, James G. Robinson, Michael Robles, Alison Saldanha, Alex Schwartz, Libby Seline, Shelly Seroussi, Rachel Shorey, Anjali Singhvi, Charlie Smart, Ben Smithgall, Steven Speicher, Michael Strickland, Albert Sun, Thu Trinh, Tracey Tully, Maura Turcotte, Bella Virgilio, Miles Watkins, Phil Wells, Jeremy White, Josh Williams, Jin Wu and Yanxing Yang.
+>>>>>>> f16f20439dad0de130635b2e0fd78b7e3016e7c4
